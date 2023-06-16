@@ -25,6 +25,7 @@
 .project svg {
   font-size: 60px;
   color: #3e497a;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 1300px) {
