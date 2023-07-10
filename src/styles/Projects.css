@@ -9,7 +9,7 @@
 .projects .projectTitle {
   text-align: center;
   color: #3e497a;
-  font-size: 60px;
+  font-size: 10px;
   font-weight: bolder;
 }
 
@@ -30,6 +30,10 @@
   margin: 40px;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .projectItem:hover {
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);

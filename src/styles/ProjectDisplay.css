@@ -11,6 +11,7 @@
   margin-top: 50px;
   color: #3e497a;
   font-size: 35px;
+  margin-top: 6rem;
 }
 .project img {
   width: 700px;
@@ -26,33 +27,30 @@
   font-size: 60px;
   color: #3e497a;
   cursor: pointer;
+  padding-right: 10px;
 }
 
+
 @media only screen and (max-width: 1300px) {
-  
-
-
 }
 
 @media only screen and (max-width: 800px) {
-.project img{
- width: 300px;
- padding: 30px 40px;
+  .project img {
+    width: 300px;
+    padding: 30px 40px;
+  }
+  .project h1 {
+    margin-bottom: 20px;
+    color: #3e497a;
+    font-size: 25px;
+    margin-top: 0;
+  }
+  .project p {
+    font-size: 20px;
+    color: #3e497a;
+  }
+  .project svg {
+    font-size: 40px;
+    color: #3e497a;
+  }
 }
-.project h1{
-  margin-bottom: 20px;
-  color: #3e497a;
-  font-size: 25px;
-}
-.project p {
-  font-size: 20px;
-  color: #3e497a;
-}
-.project svg {
-  font-size: 40px;
-  color: #3e497a;
-}
-
-}
-  
-

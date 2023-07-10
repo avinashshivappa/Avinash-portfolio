@@ -16,7 +16,7 @@ function Home() {
           <p>A web developer with a passion for learning and creating.</p>
 
           <LinkedInIcon
-            onClick={() => openInNewTab("https://www.linkedin.com/")}
+            onClick={() => openInNewTab("https://www.linkedin.com/in/avinash-s-815b16282/")}
           />
           <GithubIcon
             onClick={() => openInNewTab("https://github.com/avinashshivappa")}
@@ -29,13 +29,13 @@ function Home() {
           <li className="item">
             <h2> Front-End</h2>
             <span>
-              ReactJS, Redux, HTML, CSS
+              ReactJS, JavaScript, HTML, CSS, GitHub
             </span>
           </li>
-          <li className="item">
+          {/* <li className="item">
             <h2>Back-End</h2>
             <span>Basics of NodeJS, ExpressJS, MongoDB</span>
-          </li>
+          </li> */}
           <li className="item">
             <h2>Languages</h2>
             <span>JavaScript</span>

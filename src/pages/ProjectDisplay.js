@@ -1,12 +1,14 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { ProjectList } from "../helpers/ProjectList";
-import GitHubIcon from "@material-ui/icons/GitHub";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import PreviewIcon from "@mui/icons-material/Preview";
 import "../styles/ProjectDisplay.css";
 
 function ProjectDisplay() {
   const { id } = useParams();
   const project = ProjectList[id];
+
   const openInNewTab = (url) => {
     window.open(url, "_blank", "noreferrer");
   };
@@ -17,7 +19,11 @@ function ProjectDisplay() {
       <p>
         <b>Skills:</b> {project.skills}
       </p>
-      <GitHubIcon onClick={() => openInNewTab("https://github.com/avinashshivappa")} />
+      <div>
+        <GitHubIcon onClick={() => openInNewTab(project.github)} />
+
+        <PreviewIcon onClick={() => openInNewTab(project.live)} />
+      </div>
     </div>
   );
 }

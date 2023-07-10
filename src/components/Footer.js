@@ -11,7 +11,7 @@ function Footer() {
     <div className="footer">
       <div className="socialMedia">
        
-        <LinkedInIcon  onClick={() => openInNewTab("https://www.linkedin.com/")} />
+        <LinkedInIcon  onClick={() => openInNewTab("https://www.linkedin.com/in/avinash-s-815b16282/")} />
         <GitHubIcon onClick={() => openInNewTab("https://github.com/avinashshivappa")} />
       </div>
 
